@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+body{
+    background-image: url(/hamburger/hamburger.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.parent{
+    margin-top: 150px;
+    margin-left: 40px;
+    /* margin-bottom: 30px; */
+    padding: 80px;
+    line-height: 2;
+    word-spacing: 5;
+}
+h1{
+    font-family: cursive;
+margin-bottom: -10px;
+/* margin-top: 30px; */
+}
+span{
+    /* margin-bottom: 260px; */
+    font-family: fantasy;
+    color: darkmagenta;
+}
+p{
+     margin-top: 30px; 
+     line-height: 1.2;
+text-align: justify;
+    }
+
+
+    .bck-btn{
+        float:left;
+        margin-top: 5px;
+    }
+    
+    .bck-btn button{
+        font-family: monospace;
+        width: 200px;
+        height: 50px;
+        background-color: white;
+        border: 1px solid white;
+        color: coral;
+        font-size: 30px;
+        text-transform: capitalize;
+    }
+    
+    .bck-btn button:hover{
+        background-color:cornflowerblue;
+        color: black;
+    }
+    
